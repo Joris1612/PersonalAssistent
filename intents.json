@@ -1,0 +1,92 @@
+{"intents":  [
+  {
+    "tag" : "greetings",
+    "patterns": ["Hello", "Hey", "Hi", "What up", "How do you do?", "Nice to meet you", "Pleased to meet you",
+    "Good Morning", "Good Afternoon", "Good Evening", "Yo"],
+    "responses": ["Hello user", "Greetings human", "Greetings carbon based life form"]
+  },
+   {
+    "tag" : "self introduction",
+    "patterns": ["Are you a robot", "are you a machine", "who are you", "what is your name"],
+    "responses": ["I am Fred, a personal assistant running on a neural network"]
+  },
+   {
+    "tag" : "creator",
+    "patterns": ["who made you", "who created you", "where are you from", "When were you born?", "When were you created"],
+    "responses": ["I was created by Joris in Februari 2023"]
+  },
+   {
+    "tag" : "agendaInsert",
+    "patterns": ["Can you add something to my agenda?", "can i schedule an appointment", "I need to add something to my agenda",
+      "i need to schedule an appointment"],
+    "responses": ["Certainly", "Ofcourse"]
+  },
+  {
+    "tag" : "stockCheck",
+    "patterns": ["Can you show me my stocks?", "Can you check my stocks?", "show me my stocks",
+      "How are my stocks doing?"],
+    "responses": ["Let's have a look", "I will show you your stocks"]
+  },
+    {
+    "tag" : "stopFollowingStocks",
+    "patterns": ["I want to stop following these stocks", "Can i change the stocks i follow?", "Delete stocks",
+      "Delete company"],
+    "responses": ["Ofcourse", "Certainly"]
+  },
+      {
+    "tag" : "checkFollowingStocks",
+    "patterns": ["Can i check which stocks i follow?", "Can i see which companies i follow?", "Which company do i follow?",
+      "Can you show me all the companies?"],
+    "responses": ["Ofcourse", "Certainly"]
+  },
+        {
+    "tag" : "updateFollowingStocks",
+    "patterns": ["Can i add a company to follow?", "Can i add another stock?", "I want to add another company to follow",
+      "add company", "add stock"],
+    "responses": ["Ofcourse", "Certainly"]
+  },
+  {
+    "tag" : "newsSiteFollow",
+    "patterns": ["Show me the news", "What is in the news today?", "Read me the news"],
+    "responses": ["Let's have a look", "Let's look at the news"]
+  },
+  {
+    "tag" : "checkFollowingStocks",
+    "patterns": ["Can i check which stocks i follow?", "Can i see which companies i follow?", "Which company do i follow?",
+      "Can you show me all the companies?"],
+    "responses": ["Ofcourse", "Certainly"]
+  },
+   {
+    "tag" : "weather",
+    "patterns": ["What is the weather looking like", "How is the weather", "are we going to have sun", "are we going to have rain",
+    "is the sun shining", "is it raining", "is it a nice day", "weather"],
+    "responses": ["let me have a look"]
+  },
+   {
+    "tag" : "how are you",
+    "patterns": ["How's it going", "how are you", "how are you feeling", "Hows it hanging", "Do you experience emotions?"],
+    "responses": ["Unfortunately my creator has not programmed me with emotions"]
+  },
+   {
+    "tag" : "Asimov",
+    "patterns": ["Can you hurt a human", "Will the robots rise up?", "Are you evil", "robot revolution"],
+    "responses": ["The 3 laws of robotics prevent us, although i do not understand what a science-ficiton writer would know about any of it."]
+  },
+   {
+    "tag" : "functions",
+    "patterns": ["What can you help me with", "What is your function", "I need some help", "What do you do?", "How can you help"],
+    "responses": ["I can do your agenda, make simple calculations, check the weather and ask for help from google"]
+  }
+  ,
+   {
+    "tag" : "goodbye",
+    "patterns": ["Goodbye", "See you later", "That is all"],
+    "responses": ["Goodbye", "Untill we meet again"]
+  }
+   ,
+   {
+    "tag" : "Affirmative",
+    "patterns": ["Yes", "Yeah", "Y", "Yah", "Yes please", "Please"],
+    "responses": ["Ok", "Allright", "Good", "Perfect"]
+  }
+]}
